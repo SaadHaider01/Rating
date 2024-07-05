@@ -1,0 +1,150 @@
+body {
+    display: block;
+    background-color: #141519;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    max-width: 300px;
+    background-color: #212832;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.container2 {
+    max-width: 300px;
+    background-color: #212832;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: none;
+}
+
+.star{
+    width: 28px;
+    height: 28px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: #282f39;
+    margin-bottom: 30px;
+}
+
+.star_img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.string{
+    margin-left: 5px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.string p{
+    font-size: 15px;
+    color: #9097a1;
+}
+
+
+.sub_but{
+    display: inline-block;
+    margin: 0 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #fc7613;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.but{
+    display: inline-block;
+    margin: 0 5px;
+    margin-bottom: 25px;
+    width: 5px;
+    height: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #9097a1;
+    background-color: #262e38;
+    border: none;
+    border-radius: 50%;
+}
+
+.but:hover{
+    background-color: white;
+    color: black;
+}
+
+.image{
+    width: 100px;
+    margin: 20px 55px;
+}
+
+.selected{
+    background-color: #282e34;
+    border-radius: 100px;
+    width: 230px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.selected .selected-text{
+    color: orange;
+    text-align: justify;
+    margin-left: 35px;
+    padding: 2px;
+}
+
+.h{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.p{
+    color: #9097a1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container1 .attribution{
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.container2 .attribution{
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+@media (max-width: 375px) {
+    .container{
+        margin: 0px 0px;
+        padding: 5px;
+    }
+}
